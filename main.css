@@ -1,0 +1,123 @@
+html,
+body{
+    height: 90%;
+    /* width: 100%; */
+    
+}
+body{
+    background: linear-gradient(to right,rgb(238, 178, 125),rgb(211, 133, 208));
+}
+.main{
+    /* padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-right: 3rem;
+    padding-left: 3rem; */
+    /* width: 100%; */
+    height:100%;
+    margin:7rem 7rem;
+    padding:1rem;
+    /* align-content:center;  */
+    display: grid;
+    grid-template-columns: 30% auto;
+    /* border-radius: 5px;
+    border:1rem solid; */
+}
+.left{
+    /* background: linear-gradient(to bottom,#FFDEAD); */
+    background: linear-gradient(to bottom,#f0b37d,rgb(250, 183, 96));
+    /* background:#FFDEAD; */
+    display:grid;
+    grid-template-rows:10% 70% auto;
+    grid-template-areas: "header body footer"
+    padding:1rem;
+    border-radius:10px 0px 0px 10px;
+}
+.logo{
+    font-family: 'Pacifico', cursive;
+    color:#ad7340;
+    padding-top:1rem;
+    padding-left:1rem;
+
+}
+.main-theme{
+    font-family: 'Barlow Condensed', sans-serif;
+    color:#ad7340;
+    font-size: 2rem;
+    padding:1rem;
+    padding-top: 0;
+}
+.left-foot-note{
+    padding:1rem;
+    font-size:0.8rem;
+    color:#7a502a;
+}
+.image-container{
+    display:block;
+    width:30%;
+    height:30%;
+}
+.right{
+    background: white;
+    padding:1rem;
+    border-radius:0px 10px 10px 0px;
+    display:grid;
+    grid-template-rows:10% auto 10%;
+}
+.right-head-note{
+    text-align:right;
+    font-size:0.9rem;
+}
+.form-container{
+    width:40%;
+    margin:auto;
+}
+.form{
+    display:grid;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-row-gap: 7px;
+    /* grid-template-columns: 10% 10% 10% 10% 10%; */
+}
+.button{
+    display:grid;
+    grid-template-columns: auto  10% 10%;
+    grid-column-gap: 5px;
+}
+.sign-up{
+    /* width:80%; */
+    /* display:inline-block; */
+    background-color: #4f7ec4;
+    padding:2px;
+    color:white;
+}
+.twitter{
+    /* display:inline-block; */
+    height:100%;
+}
+.facebook{
+    /* display:inline-block; */
+    height:100%;
+}
+.names{
+    display:grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+
+}
+.accept-terms{
+    display:grid;
+    grid-template-columns: 5% auto;
+    text-align: top;
+    grid-column-gap: 10px;
+}
+.create-account{
+    width:50%;
+    background-color:#e35fe7;
+    padding:2px;
+    color:white;
+}
+.right-foot-note{
+    width:40%;
+    margin:auto;
+    font-size:0.7rem;
+    /* text-align: center;  */
+}
