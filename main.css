@@ -73,8 +73,10 @@ body{
 }
 .left-foot-note{
     padding:1rem;
-    font-size:0.8rem;
+    font-size:0.7rem;
     color:#7a502a;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight:100;
 }
 .left-foot-note a{
     color:#7a502a;
@@ -93,7 +95,14 @@ body{
 }
 .right-head-note{
     text-align:right;
-    font-size:0.9rem;
+    font-size:0.7rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight:200;
+    color:#515252;
+}
+.right-head-note a{
+    text-decoration: none;
+    color:#57bee7;
 }
 .form-container{
     width:50%;
