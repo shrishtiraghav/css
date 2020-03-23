@@ -5,7 +5,7 @@ body{
     
 }
 body{
-    background: linear-gradient(to right,rgb(247, 190, 140),rgb(187, 144, 186));
+    background: linear-gradient(to right,#fcd48b,rgb(187, 144, 186));
 }
 .main{
     /* padding-top: 10rem;
@@ -43,7 +43,7 @@ body{
 } */
 .left{
     /* background: linear-gradient(to bottom,#FFDEAD); */
-    background: linear-gradient(to bottom,#fdc08b,rgb(255, 199, 126));
+    background: linear-gradient(to bottom,#fcd48b,#fad4a3);
     /* background:#FFDEAD; */
     display:grid;
     grid-template-rows:10% 20% 60% auto;
