@@ -5,7 +5,7 @@ body{
     
 }
 body{
-    background: linear-gradient(to right,rgb(238, 178, 125),rgb(211, 133, 208));
+    background: linear-gradient(to right,rgb(247, 190, 140),rgb(187, 144, 186));
 }
 .main{
     /* padding-top: 10rem;
@@ -43,7 +43,7 @@ body{
 } */
 .left{
     /* background: linear-gradient(to bottom,#FFDEAD); */
-    background: linear-gradient(to bottom,#f0b37d,rgb(250, 183, 96));
+    background: linear-gradient(to bottom,#fdc08b,rgb(255, 199, 126));
     /* background:#FFDEAD; */
     display:grid;
     grid-template-rows:10% 20% 60% auto;
@@ -76,6 +76,9 @@ body{
     font-size:0.8rem;
     color:#7a502a;
 }
+.left-foot-note a{
+    color:#7a502a;
+}
 .image-container{
     display:block;
     width:50%;
@@ -93,16 +96,18 @@ body{
     font-size:0.9rem;
 }
 .form-container{
-    width:60%;
+    width:50%;
     margin-left:8rem;
     margin-right:auto;
-    margin-top:2rem;
-    margin-bottom: 1rem;
+    margin-top:0.5rem;
+    margin-bottom: 1.5rem;
 }
 .form{
     display:grid;
-    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 20% 10% 10% 10% 10% 10% 10% 10%;
     grid-row-gap: 7px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
     /* grid-template-columns: 10% 10% 10% 10% 10%; */
 }
 .button{
@@ -113,7 +118,7 @@ body{
 .sign-up{
     /* width:80%; */
     /* display:inline-block; */
-    background-color: #4f7ec4;
+    background-color: #57bee7;
     padding:2px;
     color:white;
     border-radius:8px;
@@ -122,9 +127,10 @@ body{
 }
 .sign-up a{
     text-align:left;
-    margin-right:7rem;
+    margin-right:1rem;
     text-decoration: none;
     color:rgb(66, 65, 65);
+    color:white;
 }
 .twitter{
     /* display:inline-block; */
@@ -168,13 +174,20 @@ hr {
 .names{
     display:grid;
     grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 49% 49%;
+    grid-row-gap:1.5px;
+    grid-column-gap:5px;
 
 }
 .accept-terms{
     display:grid;
     grid-template-columns: 5% auto;
     grid-column-gap: 5px;
+    color:grey;
+}
+.accept-terms a{
+    text-decoration: none;
+    color:#57bee7;
 }
 .creating-account{
     font-size: 0.7rem;
@@ -192,5 +205,11 @@ hr {
     margin:auto;
     margin-left:8rem;
     font-size:0.7rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    color:grey;
     /* text-align: center;  */
+}
+.right-foot-note a{
+    text-decoration: none;
+    color:#57bee7;
 }
