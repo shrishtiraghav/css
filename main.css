@@ -179,7 +179,11 @@ hr {
      margin-bottom: 0.5rem;
      color:#838080;
  } 
-
+input{
+    background: rgb(211, 209, 209);
+    border:0.2rem;
+    border-radius:0.3rem;
+}
 .names{
     display:grid;
     grid-template-rows: 50% 50%;
