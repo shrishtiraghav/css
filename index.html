@@ -8,7 +8,8 @@
         <link rel="shortcut icon" href="../favicon.png">
         <link href="https://fonts.googleapis.com/css?family=Anton|Montserrat:400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:700|Pacifico|Roboto&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:700|Pacifico|Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
@@ -17,6 +18,7 @@
                 <div class="logo">dribbble</div>
                 <div class="main-theme">Discover the world's top Designers & Creatives.</div>
                 <div class="image-container">
+                     <img src="assets/image.jpg" class="image"/>
                      <!-- <div class="image"><img src="assets/danboard-on-top-of-toy-train-675266.jpg"></img></div>  -->
                 </div>
                 <div class="left-foot-note">Art by <a href="">Peter Tarka</a></div>
@@ -27,14 +29,15 @@
                     <div class="form">
                         <label for="Sign up to Dribble">Sign up to Dribble</label>
                         <div class="button">
-                            <button  type="button" class="sign-up">Sign up with Google</button>
-                            <button type="button" class="twitter"></button>
-                            <button type="button" class="facebook"></button>
+                            <button  type="button" class="sign-up"><a href="https://google.com/" class="fa fa-google"></a>Sign up with Google</button>
+                            <button type="button" class="twitter"><a href="https://twitter.com/" class="fa fa-twitter"></a></button>
+                            <button type="button" class="facebook"><a href="https://facebook.com/" class="fa fa-facebook"></a></button>
                         </div> 
+                        <div class="divider"><hr><div class="or"> Or </div><hr></div>
                         <div class="names">   
                             <label for="Full name">Full name</label>
-                            <input type="text" id="Full Name">
                             <label for="User name">User name</label>
+                            <input type="text" id="Full Name">
                             <input type="text" id="User Name">
                         </div>    
                         <label for="Email Address">Email Address</label>
@@ -43,11 +46,11 @@
                         <input type="password" id="password">
                         <div class="accept-terms">
                             <input type="checkbox" id="checkbox">
-                            <label for="creating-account">Creating an account means you're okay with our
+                            <div class="creating-account">Creating an account means you're okay with our
                                 <a href="">Terms of Services</a>,
                                 <a href="">Privacy Policy</a> and our default
                                 <a href="">Notification Settings</a>
-                            </label>
+                            </div>
                         </div>    
                         <button type="button" class="create-account">Create Account</button>
                     </div>
