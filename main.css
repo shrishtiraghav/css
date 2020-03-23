@@ -93,11 +93,11 @@ body{
     font-size:0.9rem;
 }
 .form-container{
-    width:40%;
+    width:60%;
     margin-left:8rem;
     margin-right:auto;
     margin-top:2rem;
-    margin-bottom: auto;
+    margin-bottom: 1rem;
 }
 .form{
     display:grid;
@@ -174,7 +174,7 @@ hr {
 .accept-terms{
     display:grid;
     grid-template-columns: 5% auto;
-    grid-column-gap: 10px;
+    grid-column-gap: 5px;
 }
 .creating-account{
     font-size: 0.7rem;
