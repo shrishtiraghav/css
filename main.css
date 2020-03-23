@@ -44,6 +44,7 @@ body{
 .left{
     /* background: linear-gradient(to bottom,#FFDEAD); */
     background: linear-gradient(to bottom,#fcd48b,#fad4a3);
+    
     /* background:#FFDEAD; */
     display:grid;
     grid-template-rows:10% 20% 60% auto;
