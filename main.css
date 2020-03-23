@@ -106,7 +106,7 @@ body{
 }
 .form-container{
     width:50%;
-    margin-left:8rem;
+    margin-left:10rem;
     margin-right:auto;
     margin-top:0.2rem; 
     margin-bottom: 2rem;
@@ -212,7 +212,7 @@ hr {
 .right-foot-note{
     width:40%;
     margin:auto;
-    margin-left:8rem;
+    margin-left:10rem;
     font-size:0.7rem;
     font-family: 'Barlow Condensed', sans-serif;
     color:grey;
