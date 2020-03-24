@@ -322,7 +322,7 @@ input{
     .right-foot-note{
         width:70%;
         font-size:0.5rem;
-        margin-top:2rem;
+        margin-top:1rem;
     }
 }
 @media (max-width:49rem){
@@ -403,5 +403,6 @@ input{
     .right-foot-note{
         width:70%;
         font-size:0.5rem;
+        /* margin-top: 0.3rem; */
     }
 }
