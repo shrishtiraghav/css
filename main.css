@@ -61,7 +61,7 @@ body{
 
 }
 .main-theme{
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow', sans-serif;
     color:#ad7340;
     /* font-size: 2.2rem; */
     padding:1rem;
@@ -72,7 +72,7 @@ body{
     padding:1rem;
     font-size:0.7rem;
     color:#7a502a;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow', sans-serif;
     font-weight:100;
 }
 .left-foot-note a{
@@ -100,7 +100,7 @@ body{
 .right-head-note{
     text-align:right;
     font-size:0.7rem;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow', sans-serif;
     font-weight:200;
     color:#515252;
 }
@@ -117,9 +117,9 @@ body{
 }
 .form{
     display:grid;
-    grid-template-rows: 10% 10% 10% 20% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 20% 10% 10% 10% 10% 15% 10% 10%;
     grid-row-gap: 7px;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow', sans-serif;
     font-weight: 100;
     color:#333333
     /* grid-template-columns: 10% 10% 10% 10% 10%; */
@@ -223,7 +223,7 @@ input{
     background-color:#da129e;
     padding:4px;
     color:white;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow', sans-serif;
     font-weight: 100;
     border-radius:4px;
     border:none;
@@ -236,7 +236,7 @@ input{
     margin:auto;
     /* margin-left:0; */
     font-size:0.7rem;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow', sans-serif;
     color:grey;
     /* text-align: center;  */
 }
@@ -311,7 +311,7 @@ input{
         width:60%;
     }
     .accept-terms{
-        width:60%;
+        width:59%;
         /* margin-bottom:2px;  */
 
     }
@@ -321,7 +321,7 @@ input{
     .right-foot-note{
         width:30%;
         margin:auto;
-        margin-top:1rem; 
+        /* margin-top:2.5rem;  */
         margin-left:10rem; 
         font-size:0.5rem;
     }
