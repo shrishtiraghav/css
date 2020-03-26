@@ -167,7 +167,7 @@ nav{
 .fa-play-circle{
     position:absolute;
     font-size: 70px;
-    margin-left:21rem;
+    margin-left:17.5rem;
     margin-top: 25rem;
     color:white;
 }
@@ -264,7 +264,251 @@ nav{
     padding:1rem;
     text-align: center;
     width:30%;
+    border:none;
 }
-@media (max-width:47rem){
-
+@media (max-width:65rem){
+    .main{
+        display:grid;
+        grid-template-columns: 35% auto 10%;
+        grid-template-areas: "main middle nav";
+        height:125%;
+        margin-left:5.5rem;
+        margin-right:5.5rem;
+        margin-top:0;
+        margin-bottom:0;
+        
+    }
+    .list_of_navitem1{
+        transform:rotateZ(90deg);
+        grid-area: "nav";
+        margin-right: 6rem;
+        margin-bottom:4rem;
+        width:10px;
+        height:56px;
+        text-align:center;
+        color:white;
+    }
+    .list_of_navitem1:active{
+        background-color: grey  !important;
+    }
+    .list_of_navitem2{
+        transform:rotateZ(90deg);
+        grid-area: "nav";
+        margin-right: 6rem;
+        margin-bottom:4rem;
+        width:10px;
+        height:56px;
+        text-align:center;
+        color:white;
+    }
+    .list_of_navitem3{
+        transform:rotateZ(90deg);
+        grid-area: "nav";
+        margin-right: 6rem;
+        margin-bottom:4rem;
+        width:10px;
+        height:56px;
+        text-align:center;
+        color:white;
+    }
+    .list_of_navitem4{
+        transform:rotateZ(90deg);
+        grid-area: "nav";
+        margin-right: 6rem;
+        margin-bottom:4rem;
+        width:10px;
+        height:56px;
+        text-align:center;
+        color:white;
+    }    
+    .name{
+        color:white;
+        font-size:5rem;
+        font-weight:bold;
+        width:100%;
+        position: absolute;
+        grid-row-start:2;
+        grid-row-end:3;
+        /* padding-top:1rem; */
+        font-family: 'Mukta Malar', sans-serif;
+    
+        /* display:block; */
+    }
+    .intro{
+        grid-row-start:3;
+        grid-row-end:4;
+        color:white;
+        font-size:1rem;
+        padding-top: 1rem;
+    }
+    .fa-play-circle{
+        position:absolute;
+        font-size: 70px;
+        margin-left:11.3rem;
+        margin-top: 25rem;
+        color:white;
+    } 
+    .image-container{
+        /* grid-row-start: 1;
+        grid-row-end:2; */
+        grid-area: image;
+        background: url(assets/woman-wearing-blue-shirt-and-denim-jacket-1130624.jpg) left 15%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:100%;
+        /* height:30%;
+        width:30%; */
+    }
+    .resume{
+        height:2.5rem;
+        margin-left:1rem;
+        background: rgb(18, 31, 49);
+        color:white;
+        padding:1rem;
+        text-align: center;
+        width:30%;
+        border:none;
+    }
+}
+@media (max-width:49rem){
+    .main{
+        display:grid;
+        grid-template-columns: 35% auto 13%;
+        grid-template-areas: "main middle nav";
+        height:125%;
+        margin-left:3.5rem;
+        margin-right:3.5rem;
+        margin-top:0;
+        margin-bottom:0;
+        
+    }
+    .left{
+        background-color: #164B9B; ;
+        height:100%;
+        display:grid;
+        grid-template-rows: 20% auto 10%;
+        padding-left:3rem;
+    }
+    
+    .name{
+        color:white;
+        font-size:4.5rem;
+        font-weight:bold;
+        width:100%;
+        position: absolute;
+        grid-row-start:2;
+        grid-row-end:3;
+        /* padding-top:1rem; */
+        font-family: 'Mukta Malar', sans-serif;
+    
+        /* display:block; */
+    }
+    .intro{
+        grid-row-start:3;
+        grid-row-end:4;
+        color:white;
+        font-size:1rem;
+        padding-top: 0.3rem;
+    }
+    .hire{
+        grid-row-start:4;
+        grid-row-end:5;
+        border:solid;
+        border-color:white;
+        border-width: 0.5px;
+        width:45%;
+        padding-top:0.7rem;
+        /* margin-top:1rem; */
+        /* padding-left:1rem; */
+        color:white;
+        text-align: center;
+    }
+    .fa-play-circle{
+        position:absolute;
+        font-size: 70px;
+        margin-left:9.5rem;
+        margin-top: 25rem;
+        color:white;
+    }
+    
+    .dribbble{
+        border-radius:50%;
+        background-color:#164B9B; 
+        border:solid 1px white;
+        margin-right:0.5rem;
+        height:50%;
+    }
+    .dribbble a{
+        text-decoration: none;
+        padding:0.1rem;
+        color:white;
+    }
+    .instagram{
+        border-radius:50%;
+        background-color:#164B9B; 
+        border:solid 1px white;
+        margin-right:0.5rem;
+        height:50%;
+    }
+    .instagram a{
+        text-decoration: none;
+        padding:0.1rem;
+        color:white;
+    }
+    .behance{
+        border-radius:50%;
+        background-color:#164B9B; 
+        border:solid 1px white;
+        margin-right:0.5rem;
+        height:50%;
+    }
+    .behance a{
+        text-decoration: none;
+        padding:0.1rem;
+        color:white;
+    }
+    .twitter{
+        border-radius:50%;
+        background-color:#164B9B; 
+        border:solid 1px white;
+        margin-right:0.5rem;
+        height:50%;
+    }
+    .twitter a{
+        text-decoration: none;
+        padding:0.1rem;
+        color:white;
+    }
+    .image-container{
+        /* grid-row-start: 1;
+        grid-row-end:2; */
+        grid-area: image;
+        background: url(assets/woman-wearing-blue-shirt-and-denim-jacket-1130624.jpg) top 10% left 30%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width:100%;
+        /* height:30%;
+        width:30%; */
+    }
+    .image{
+        height:30%;
+        width:30%;
+    }
+    .intro-1{
+        font-size:0.7rem;
+        margin-top:1rem;
+        margin-left:1rem;
+        margin-bottom:1rem;
+    
+    }
+    .resume{
+        height:3.5rem;
+        margin-left:1rem;
+        background: rgb(18, 31, 49);
+        color:white;
+        padding:1rem;
+        text-align: center;
+        width:40%;
+        border:none;
+    }
 }
