@@ -350,11 +350,59 @@ nav{
         margin-top: 25rem;
         color:white;
     } 
+    .dribbble{
+        border-radius:50%;
+        background-color:#164B9B; 
+        border:solid 1px white;
+        margin-right:0.2rem;
+        height:50%;
+    }
+    .dribbble a{
+        text-decoration: none;
+        padding:0.1rem;
+        color:white;
+    }
+    .instagram{
+        border-radius:50%;
+        background-color:#164B9B; 
+        border:solid 1px white;
+        margin-right:0.2rem;
+        height:50%;
+    }
+    .instagram a{
+        text-decoration: none;
+        padding:0.1rem;
+        color:white;
+    }
+    .behance{
+        border-radius:50%;
+        background-color:#164B9B; 
+        border:solid 1px white;
+        margin-right:0.2rem;
+        height:50%;
+    }
+    .behance a{
+        text-decoration: none;
+        padding:0.1rem;
+        color:white;
+    }
+    .twitter{
+        border-radius:50%;
+        background-color:#164B9B; 
+        border:solid 1px white;
+        margin-right:0.2rem;
+        height:50%;
+    }
+    .twitter a{
+        text-decoration: none;
+        padding:0.1rem;
+        color:white;
+    }
     .image-container{
         /* grid-row-start: 1;
         grid-row-end:2; */
         grid-area: image;
-        background: url(assets/woman-wearing-blue-shirt-and-denim-jacket-1130624.jpg) left 20%;
+        background: url(assets/woman-wearing-blue-shirt-and-denim-jacket-1130624.jpg) top 10% left 30%;
         background-size: cover;
         background-repeat: no-repeat;
         width:100%;
