@@ -1,18 +1,265 @@
 html,
 body{
-    height: 100%;
+    height: 90%;
+}
+body{
+    background-color: black;
+    margin:0;
 }
 .main{
     display:grid;
-    grid-template-columns: 30% 50% 20%;
-    grid-template-areas: "left right nav";
+    grid-template-columns: 35% auto 7%;
+    grid-template-areas: "main middle nav";
+    height:125%;
+    margin-left:5.5rem;
+    margin-right:5.5rem;
+    margin-top:0;
+    margin-bottom:0;
+    
 }
-.nav{
+.bar1{
+    width:20%;
+    margin-top:3rem;
+    margin-left:2rem;
+    color:white;
+}
+.bar2{
+    width:10%;
+    margin-left:2.9rem;
+    color:white;
+}
+.bar3{
+    width:5%;
+    margin-left:3.4rem;
+    margin-bottom:5rem;
+    color:white;
+}
+nav{
+    /* grid-column-start: 3;
+    grid-column-end: 4; */
+    display:grid;
+    grid-area: nav;
+    background: rgb(18, 31, 49);
+    /* grid-template-rows: 40% auto;*/
+} 
+.list-nav-items{
+    list-style-type: none;
+}
+.list-nav-items a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Signika', sans-serif;
+    font-size:0.8rem;
+}
+.list_of_navitem1{
+    transform:rotateZ(90deg);
     grid-area: "nav";
+    margin-right: 6rem;
+    margin-bottom:4rem;
+    width:10px;
+    height:56px;
+    text-align:center;
+    color:white;
 }
+.list_of_navitem1:active{
+    background-color: grey  !important;
+}
+.list_of_navitem2{
+    transform:rotateZ(90deg);
+    grid-area: "nav";
+    margin-right: 6rem;
+    margin-bottom:4rem;
+    width:10px;
+    height:56px;
+    text-align:center;
+    color:white;
+}
+.list_of_navitem3{
+    transform:rotateZ(90deg);
+    grid-area: "nav";
+    margin-right: 6rem;
+    margin-bottom:4rem;
+    width:10px;
+    height:56px;
+    text-align:center;
+    color:white;
+}
+.list_of_navitem4{
+    transform:rotateZ(90deg);
+    grid-area: "nav";
+    margin-right: 6rem;
+    margin-bottom:4rem;
+    width:10px;
+    height:56px;
+    text-align:center;
+    color:white;
+}
+
 .left{
-    grid-area: "left";
+    background-color: #164B9B; ;
+    height:100%;
+    display:grid;
+    grid-template-rows: 20% auto 10%;
+    padding-left:5rem;
 }
+.title{
+    display:inline-block;
+    padding-top:1.5rem;
+    font-size:1.2rem;
+    font-family: 'Signika', sans-serif;
+    font-weight:bold;
+}
+.logo{
+    display:inline-block;
+    color:white;
+}
+.logo-1{
+    display: inline-block;
+    color:#4183fd;
+    margin:0;
+    padding:0;
+}
+.main-content{
+    display:grid;
+    grid-template-rows: 10% 20% 20% 10%;
+    font-family: 'Signika', sans-serif;
+    margin-top:2rem;
+}
+.hello{
+    color:#4183fd;
+    grid-row-start:1;
+    grid-row-end:2;
+    margin-bottom:1rem;
+}
+.name{
+    color:white;
+    font-size:7rem;
+    font-weight:bold;
+    width:100%;
+    position: absolute;
+    grid-row-start:2;
+    grid-row-end:3;
+    padding-top:1rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+
+    /* display:block; */
+}
+.intro{
+    grid-row-start:3;
+    grid-row-end:4;
+    color:white;
+    font-size:1.5rem;
+}
+.hire{
+    grid-row-start:4;
+    grid-row-end:5;
+    border:solid;
+    border-color:white;
+    width:40%;
+    padding-top:0.7rem;
+    /* margin-top:1rem; */
+    /* padding-left:1rem; */
+    color:white;
+    text-align: center;
+}
+.fa-play-circle{
+    position:absolute;
+    font-size: 70px;
+    margin-left:21rem;
+    margin-top: 25rem;
+    color:white;
+}
+
+.dribbble{
+    border-radius:50%;
+    background-color:#164B9B; 
+    border:solid 1px white;
+    margin-right:1rem;
+    height:50%;
+}
+.dribbble a{
+    text-decoration: none;
+    padding:0.1rem;
+    color:white;
+}
+.instagram{
+    border-radius:50%;
+    background-color:#164B9B; 
+    border:solid 1px white;
+    margin-right:1rem;
+    height:50%;
+}
+.instagram a{
+    text-decoration: none;
+    padding:0.1rem;
+    color:white;
+}
+.behance{
+    border-radius:50%;
+    background-color:#164B9B; 
+    border:solid 1px white;
+    margin-right:1rem;
+    height:50%;
+}
+.behance a{
+    text-decoration: none;
+    padding:0.1rem;
+    color:white;
+}
+.twitter{
+    border-radius:50%;
+    background-color:#164B9B; 
+    border:solid 1px white;
+    margin-right:1rem;
+    height:50%;
+}
+.twitter a{
+    text-decoration: none;
+    padding:0.1rem;
+    color:white;
+}
+
 .right{
-    grid-area: "right";
+    display:grid;
+    grid-template-rows: 75% auto;
+    grid-template-areas: "image"
+                          "intro";
+                          
+}
+.image-container{
+    /* grid-row-start: 1;
+    grid-row-end:2; */
+    grid-area: image;
+    background: url(assets/woman-wearing-blue-shirt-and-denim-jacket-1130624.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    /* height:30%;
+    width:30%; */
+}
+.image{
+    height:30%;
+    width:30%;
+}
+.introduction{
+    grid-area:"intro";
+    background:white;
+    font-family: 'Signika', sans-serif;
+    /* margin-top:1rem; */
+}
+.intro-1{
+    font-size:0.8rem;
+    margin-top:1rem;
+    margin-left:1rem;
+    margin-bottom:1rem;
+
+}
+.resume{
+    height:3.5rem;
+    margin-left:1rem;
+    background: rgb(18, 31, 49);
+    color:white;
+    padding:1rem;
+    text-align: center;
+    width:30%;
 }
