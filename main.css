@@ -320,7 +320,8 @@ nav{
         height:56px;
         text-align:center;
         color:white;
-    }    
+    } 
+     
     .name{
         color:white;
         font-size:5rem;
@@ -329,6 +330,7 @@ nav{
         position: absolute;
         grid-row-start:2;
         grid-row-end:3;
+        /* margin-top:2rem; */
         /* padding-top:1rem; */
         font-family: 'Mukta Malar', sans-serif;
     
@@ -352,7 +354,7 @@ nav{
         /* grid-row-start: 1;
         grid-row-end:2; */
         grid-area: image;
-        background: url(assets/woman-wearing-blue-shirt-and-denim-jacket-1130624.jpg) left 15%;
+        background: url(assets/woman-wearing-blue-shirt-and-denim-jacket-1130624.jpg) left 20%;
         background-size: cover;
         background-repeat: no-repeat;
         width:100%;
@@ -389,7 +391,13 @@ nav{
         grid-template-rows: 20% auto 10%;
         padding-left:3rem;
     }
-    
+    .hello{
+        color:#4183fd;
+        grid-row-start:1;
+        grid-row-end:2;
+        margin-top:2rem;
+        margin-bottom:1rem;
+    }  
     .name{
         color:white;
         font-size:4.5rem;
@@ -398,6 +406,7 @@ nav{
         position: absolute;
         grid-row-start:2;
         grid-row-end:3;
+        margin-top:2rem;
         /* padding-top:1rem; */
         font-family: 'Mukta Malar', sans-serif;
     
@@ -427,7 +436,7 @@ nav{
         position:absolute;
         font-size: 70px;
         margin-left:9.5rem;
-        margin-top: 25rem;
+        margin-top: 28rem;
         color:white;
     }
     
@@ -435,7 +444,7 @@ nav{
         border-radius:50%;
         background-color:#164B9B; 
         border:solid 1px white;
-        margin-right:0.5rem;
+        margin-right:0.2rem;
         height:50%;
     }
     .dribbble a{
@@ -447,7 +456,7 @@ nav{
         border-radius:50%;
         background-color:#164B9B; 
         border:solid 1px white;
-        margin-right:0.5rem;
+        margin-right:0.2rem;
         height:50%;
     }
     .instagram a{
@@ -459,7 +468,7 @@ nav{
         border-radius:50%;
         background-color:#164B9B; 
         border:solid 1px white;
-        margin-right:0.5rem;
+        margin-right:0.2rem;
         height:50%;
     }
     .behance a{
@@ -471,7 +480,7 @@ nav{
         border-radius:50%;
         background-color:#164B9B; 
         border:solid 1px white;
-        margin-right:0.5rem;
+        margin-right:0.2rem;
         height:50%;
     }
     .twitter a{
