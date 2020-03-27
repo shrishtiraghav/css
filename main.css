@@ -289,6 +289,23 @@ nav{
         margin-bottom:0;
         
     }
+    .bar1{
+        width:20%;
+        margin-top:3rem;
+        margin-left:2.5rem;
+        color:white;
+    }
+    .bar2{
+        width:10%;
+        margin-left:3.3rem;
+        color:white;
+    }
+    .bar3{
+        width:5%;
+        margin-left:3.7rem;
+        margin-bottom:5rem;
+        color:white;
+    }
     .list_of_navitem1{
         transform:rotateZ(90deg);
         grid-area: "nav";
