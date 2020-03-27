@@ -587,6 +587,7 @@ nav{
         border:solid;
         border-color:white;
         border-width: 0.5px;
+        padding-top:1rem;
         width:45%;
         color:white;
         text-align: center;
@@ -595,7 +596,7 @@ nav{
         position:absolute;
         font-size: 70px;
         margin-left:20.5rem;
-        margin-top: 27.5rem;
+        margin-top: 29rem;
         color:white;
     }
 }
