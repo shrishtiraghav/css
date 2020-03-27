@@ -20,7 +20,7 @@ body{
 .bar1{
     width:20%;
     margin-top:3rem;
-    margin-left:2rem;
+    margin-left:2.5rem;
     color:white;
 }
 .bar2{
@@ -30,7 +30,7 @@ body{
 }
 .bar3{
     width:5%;
-    margin-left:3.4rem;
+    margin-left:3.1rem;
     margin-bottom:5rem;
     color:white;
 }
@@ -62,10 +62,10 @@ nav{
 .list_of_navitem1{
     transform:rotateZ(90deg);
     grid-area: "nav";
-    margin-right: 6rem;
-    margin-bottom:4rem;
+    /* margin-right: 6rem;
+    margin-bottom:4rem; */
     width:10px;
-    height:56px;
+    height:100%;
     text-align:center;
     color:white;
 }
@@ -75,30 +75,33 @@ nav{
 .list_of_navitem2{
     transform:rotateZ(90deg);
     grid-area: "nav";
-    margin-right: 6rem;
-    margin-bottom:4rem;
+    /* margin-right: 6rem;
+    margin-bottom:4rem; */
+    margin-top:4rem;
     width:10px;
-    height:56px;
+    height:100%;
     text-align:center;
     color:white;
 }
 .list_of_navitem3{
     transform:rotateZ(90deg);
     grid-area: "nav";
-    margin-right: 6rem;
-    margin-bottom:4rem;
+    /* margin-right: 6rem;
+    margin-bottom:4rem; */
+    margin-top:5.5rem;
     width:10px;
-    height:56px;
+    height:100%;
     text-align:center;
     color:white;
 }
 .list_of_navitem4{
     transform:rotateZ(90deg);
     grid-area: "nav";
-    margin-right: 6rem;
-    margin-bottom:4rem;
+    /* margin-right: 6rem;
+    margin-bottom:4rem; */
+    margin-top:5.5rem;
     width:10px;
-    height:56px;
+    height:100%;
     text-align:center;
     color:white;
 }
