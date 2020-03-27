@@ -600,3 +600,23 @@ nav{
         color:white;
     }
 }
+@media (min-width:100rem){
+    .hire{
+        grid-row-start:4;
+        grid-row-end:5;
+        border:solid;
+        border-color:white;
+        border-width: 0.5px;
+        padding-top:1rem;
+        width:45%;
+        color:white;
+        text-align: center;
+    }
+    .fa-play-circle{
+        position:absolute;
+        font-size: 70px;
+        margin-left:23.5rem;
+        margin-top: 29.5rem;
+        color:white;
+    }
+}
