@@ -1,5 +1,5 @@
 html,body{
-    height: 80%;
+    height: 60%;
     background-color:#D9DEF8;
     /* width: 100%; */
 }
@@ -8,9 +8,9 @@ html,body{
     display:grid;
     margin-top:1rem;
     margin-bottom: 3rem;
-    margin-left:10rem;
+    margin-left:5rem;
     margin-right: 15rem;
-    grid-auto-columns: 10% 70% 35%;
+    grid-auto-columns: 10% 75% 37%;
     grid-template-areas: "nav" "main" "side";
     height:55%;
     font-family: 'Baloo Thambi 2', cursive;
@@ -29,6 +29,18 @@ html,body{
     padding-top:1rem;
     border-top-left-radius:3rem;
     border-bottom-left-radius: 3rem;
+}
+.nav hr{
+    visibility:hidden;
+}
+.nav :hover.nav-icon hr{
+    background-color:white;
+    float:left;
+    position:absolute;
+    visibility:visible;
+    width:0.5rem;
+    height:2.5rem;
+    border-radius:0 0.4rem 0.4rem 0;
 }
 .nav .fa{
     size:6rem;
@@ -312,6 +324,8 @@ html,body{
     grid-row-end:3;
 }
 .completed1{
+    display:grid;
+    grid-auto-columns: 65% 35%;
     background-color: #FFAC00;
     grid-column-start:1;
     grid-column-end:2;
@@ -319,7 +333,13 @@ html,body{
     border-radius:10px;
     color:white;
 }
+.graph{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
 .interest{
+    display:grid;
+    grid-auto-columns: 65% 35%;
     background-color: #7646E3;
     grid-column-start:2;
     grid-column-end:3;
@@ -329,6 +349,35 @@ html,body{
 }
 .no{
     font-size: 2rem;
+}
+svg{
+    position: relative;
+    width:80px;
+    height:80px;
+    z-index:1000;
+}
+svg circle{
+    width:20%;
+    height:20%;
+    fill:none;
+    stroke:#bebdbd;
+    stroke-width:10;
+    stroke-linecap:round;
+    transform:translate(5px,5px);
+    /* stroke-dasharray:220;
+    stroke-dashoffset:220; */
+}
+svg circle:nth-child(2){
+    stroke-dasharray:250;
+    stroke-dashoffset:190;
+} 
+.completed1:nth-child(1) svg circle:nth-child(2)
+{
+    stroke:white;
+}
+.interest:nth-child(1) svg circle:nth-child(2)
+{
+    stroke:white;
 }
 /* side part*/
 .timelines{
@@ -403,15 +452,31 @@ html,body{
     background-color: white;
     color:#73747c;   
     border-radius:10px;
-    padding:1rem;
+    /* padding:1rem; */
     box-shadow: 5px 5px 5px rgb(209, 207, 209);
 }
 .card-content{
-    display:flex;    
+    display:flex; 
+    padding:1rem;  
+    padding-bottom:0; 
 }
 .overview{
     flex-grow: 0.6;
     font-size: 1.1rem;
+}
+.time-info{
+    padding-left:1rem;
+    padding-bottom: 1rem;
+}
+.side-hr hr{
+    background-color:#FF004F;
+    float:left;
+    position:absolute;
+    visibility:visible;
+    width:0.5rem;
+    height:4.5rem;
+    padding:0;
+    border-radius:0 0.4rem 0.4rem 0;
 }
 .image-container{
     height:280px;
