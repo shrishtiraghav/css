@@ -521,3 +521,79 @@ svg circle:nth-child(2){
     background-repeat: no-repeat;
     margin-top:1.5rem;
 }
+@media (max-width:65rem){
+    .main{
+        display:grid;
+        margin-top:1rem;
+        margin-bottom: 3rem;
+        margin-left:5rem;
+        margin-right: 15rem;
+        grid-auto-columns: 10% 85% 37%;
+        grid-template-areas: "nav" "main" "side";
+        height:55%;
+        font-family: 'Baloo Thambi 2', cursive;
+    }
+    .logo{
+        text-align: center;
+    }
+    .title{
+        font-size: 0.9rem;
+    }
+    .number{
+        font-size: 0.9rem;
+    }
+    .date{
+        font-size: 0.9rem;
+    }
+    .percent{
+        font-size: 0.9rem;
+    }
+    /*side bar*/
+    .notification-logo{
+        flex-grow: 0.6;
+    }
+    .heading-date{
+        flex-grow: 0.5;
+        color:#363953;
+        font-size: 1.2rem;
+    }
+    .calender-col{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width:45%;
+    }
+    .date-day{
+        background-color: white;
+        height:40%;
+        width:20px;
+        padding:0.4rem;
+        text-align: center;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px rgb(209, 207, 209);
+    }
+    .card-headline{
+        flex-grow: 0.4;
+    }
+    .card-frame{
+        background-color: white;
+        color:#73747c; 
+        width:75%;  
+        border-radius:10px;
+        box-shadow: 5px 5px 5px rgb(209, 207, 209);
+    }
+    .image-container{
+        height:280px;
+        width:155px;
+        background: url(assets/logo-teamwork-friendship-unity-business-colorful-people-icon-logotype-vector-logo-teamwork-friendship-unity-business-colorful-115612629.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top:3rem;
+    }
+    .overview{
+        font-size: 0.9rem;
+    }
+    .time-info{
+        font-size: 0.9rem;
+    }
+}
