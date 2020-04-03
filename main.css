@@ -399,6 +399,16 @@ svg circle:nth-child(2){
 }
 .notification-logo{
     color:#c1c1c2;
+    flex-grow: 1;
+}
+.profile-photo{
+    background: url(assets/75841aa2e6a2e6d4b879670c45a10796645f3d949104c096fe2648b5ec5d1caf.0.png);
+    height:27px;
+    width:27px;
+    border-radius:50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
 .calender{
     display:flex;
@@ -466,7 +476,6 @@ svg circle:nth-child(2){
 }
 .time-info{
     padding-left:1rem;
-    padding-bottom: 1rem;
 }
 .side-hr hr{
     background-color:#FF004F;
@@ -474,9 +483,35 @@ svg circle:nth-child(2){
     position:absolute;
     visibility:visible;
     width:0.5rem;
-    height:4.5rem;
+    height:6.5rem;
     padding:0;
-    border-radius:0 0.4rem 0.4rem 0;
+    border:none;
+    border-radius:0.4rem 0 0 0.4rem;
+}
+.picture{
+    display:inline-block;
+}
+.profile-photo1{
+    background: url(assets/75841aa2e6a2e6d4b879670c45a10796645f3d949104c096fe2648b5ec5d1caf.0.png);
+    height:27px;
+    width:27px;
+    border-radius:50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left:1rem;
+    margin-bottom:1rem;
+    display:inline-block;
+}
+.profile-photo2{
+    background: url(assets/75841aa2e6a2e6d4b879670c45a10796645f3d949104c096fe2648b5ec5d1caf.0.png);
+    height:27px;
+    width:27px;
+    border-radius:50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left:-0.7rem;
+    margin-bottom:1rem;
+    display:inline-block;
 }
 .image-container{
     height:280px;
@@ -484,4 +519,5 @@ svg circle:nth-child(2){
     background: url(assets/logo-teamwork-friendship-unity-business-colorful-people-icon-logotype-vector-logo-teamwork-friendship-unity-business-colorful-115612629.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top:1.5rem;
 }
