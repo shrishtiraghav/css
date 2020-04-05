@@ -647,7 +647,7 @@ svg circle:nth-child(2){
         margin-bottom: 3rem;
         margin-left:5rem;
         margin-right: 15rem;
-        grid-auto-columns: 10% 50% 37%;
+        grid-auto-columns: 10% 67% 37%;
         grid-template-areas: "nav" "main" "side";
         height:65%;
         width:80%;
@@ -680,7 +680,7 @@ svg circle:nth-child(2){
         margin-bottom: 3rem;
         margin-left:5rem;
         margin-right: 15rem;
-        grid-auto-columns: 10% 50% 37%;
+        grid-auto-columns: 10% 60% 37%;
         grid-template-areas: "nav" "main" "side";
         height:65%;
         width:80%;
