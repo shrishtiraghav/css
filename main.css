@@ -153,6 +153,7 @@ html,body{
     grid-row-start:3;
     grid-row-end:4;
 }
+
 .maptrix{
     padding:1rem;
     border-radius:4px;
@@ -192,13 +193,11 @@ html,body{
     transform: translate(-20px, -20px);
     transform: scale(1.3);
 }
-.main-title{
-    /* padding:0.5rem; */
-}
+
 .members{
     color:#a7a8a8;
 }
-.service-date{
+.date{
     color:#a7a8a8;
 }
 .logo{
@@ -417,6 +416,15 @@ svg circle:nth-child(2){
     color:#c1c1c2;
     flex-grow: 1;
 }
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color:red;
+    border-radius: 50%;
+    margin-bottom:0.5rem;
+    margin-left:-0.3rem;
+    display: inline-block;
+  }
 .profile-photo{
     background: url(assets/75841aa2e6a2e6d4b879670c45a10796645f3d949104c096fe2648b5ec5d1caf.0.png);
     height:27px;
@@ -478,7 +486,6 @@ svg circle:nth-child(2){
     background-color: white;
     color:#73747c;   
     border-radius:10px;
-    /* padding:1rem; */
     box-shadow: 5px 5px 5px rgb(209, 207, 209);
 }
 .card-content{
@@ -495,12 +502,12 @@ svg circle:nth-child(2){
 }
 .side-hr hr{
     background-color:#FF004F;
-    float:left;
-    /* position:absolute; */
+    float:left; 
+    position:absolute;
     visibility:visible;
+    margin-top:2rem;
     width:0.5rem;
-    height:6.5rem;
-    padding-top:-1;
+    height:7.5rem;
     border:none;
     border-radius:0.4rem 0 0 0.4rem;
 }
@@ -575,6 +582,24 @@ svg circle:nth-child(2){
         font-size:1rem;
         margin-right: 1rem;
     }
+    .maptrix:hover{
+        background-color: #FF004F;
+        color:white ;
+        transform: translate(-20px, -20px);
+        transform: scale(1.3);
+    }
+    .delivery-Club:hover{
+        background-color: #FF004F;
+        color:white;
+        transform: translate(-20px, -20px);
+        transform: scale(1.3);
+    }
+    .travel-Cornrade:hover{
+        background-color: #FF004F;
+        color:white;
+        transform: translate(-20px, -20px);
+        transform: scale(1.3);
+    }
     .logo{
         text-align: center;
     }
@@ -624,6 +649,17 @@ svg circle:nth-child(2){
         border-radius:10px;
         box-shadow: 5px 5px 5px rgb(209, 207, 209);
     }
+    .side-hr hr{
+        background-color:#FF004F;
+        float:left; 
+        position:absolute;
+        visibility:visible;
+        margin-top:2rem;
+        width:0.5rem;
+        height:7.2rem;
+        border:none;
+        border-radius:0.4rem 0 0 0.4rem;
+    }
     .image-container{
         height:280px;
         width:155px;
@@ -653,6 +689,24 @@ svg circle:nth-child(2){
         width:70%;
         max-width: 80%;
         font-family: 'Baloo Thambi 2', cursive;
+    }
+    .maptrix:hover{
+        background-color: #FF004F;
+        color:white ;
+        transform: translate(-20px, -20px);
+        transform: scale(1.3);
+    }
+    .delivery-Club:hover{
+        background-color: #FF004F;
+        color:white;
+        transform: translate(-20px, -20px);
+        transform: scale(1.3);
+    }
+    .travel-Cornrade:hover{
+        background-color: #FF004F;
+        color:white;
+        transform: translate(-20px, -20px);
+        transform: scale(1.3);
     }
 }
 @media (min-width:95rem)
