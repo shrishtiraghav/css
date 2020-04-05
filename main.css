@@ -48,6 +48,9 @@ html,body{
     margin-bottom:3rem;
     
 } 
+ /* {
+    color:white;
+} */
 .main-logo{
     flex-grow: 0.5;
 }
@@ -69,7 +72,7 @@ html,body{
 .status{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     grid-row-start: 2;
     grid-row-end:3;
     color:#a7a8a8;
@@ -77,24 +80,28 @@ html,body{
 }
 .all{
     padding:0.2rem; 
+    margin-right:2rem;
 }
 .recieved{
    background-color: #363953;
-   padding:0.2rem;
+   padding:0.2rem 0.4rem 0.2rem 0.4rem;
    color:white;
-   border-radius:10px;
-   text-align: center;
+   border-radius:12px;
+   /* text-align: center; */
+   margin-right:2rem;
 }
 .pending{
     padding:0.2rem; 
+    margin-right:2rem;
 }
 .completed{
-   flex-grow: 0.3;
+    margin-right:28rem;
    padding:0.2rem;
 }
 .square{
     color:#363953;
     font-size:1rem;
+    margin-right: 1rem;
 }
 .bar{
     font-size:1rem;
@@ -169,7 +176,7 @@ html,body{
 }
 .maptrix:hover{
     background-color: #FF004F;
-    color:white;
+    color:white ;
     transform: translate(-20px, -20px);
     transform: scale(1.3);
 }
@@ -195,12 +202,13 @@ html,body{
     color:#a7a8a8;
 }
 .logo{
-    font-size:1.2rem;
+    font-size:1rem;
+    padding-top:0.2rem;
     background-color: #363953;
     color:white;
     text-align: center;
     border-radius:50%;
-    width:25px;
+    width:30px;
 }
 .title{
     padding:0.3rem;
@@ -218,10 +226,18 @@ html,body{
     grid-row-start:4;
     grid-row-end:5;
 }
+.head{
+    display:flex;
+}
 .head-line{
     font-size: 1.3rem;
+    flex-grow: 1;
     grid-row-start:1;
     grid-row-end:2;
+}
+.view{
+    margin-top:0.5rem;
+    color:#a7a8a8;
 }
 .types{
     display:flex;
@@ -288,10 +304,10 @@ html,body{
 
 }
 .intro2{
-    flex-grow: 0.49;
+    flex-grow: 0.461;
 }
 .intro3{
-    flex-grow: 0.52;
+    flex-grow: 0.481;
 }
 .num{
    color:#bdbec0;
@@ -454,7 +470,7 @@ svg circle:nth-child(2){
     color:#73747c;  
 }
 .card-headline{
-    flex-grow: 0.7;
+    flex-grow: 1;
     font-size: 1.2rem;
     color:#363953;
 }
@@ -471,7 +487,7 @@ svg circle:nth-child(2){
     padding-bottom:0; 
 }
 .overview{
-    flex-grow: 0.6;
+    flex-grow: 1;
     font-size: 1.1rem;
 }
 .time-info{
@@ -480,11 +496,11 @@ svg circle:nth-child(2){
 .side-hr hr{
     background-color:#FF004F;
     float:left;
-    position:absolute;
+    /* position:absolute; */
     visibility:visible;
     width:0.5rem;
     height:6.5rem;
-    padding:0;
+    padding-top:-1;
     border:none;
     border-radius:0.4rem 0 0 0.4rem;
 }
@@ -513,13 +529,14 @@ svg circle:nth-child(2){
     margin-bottom:1rem;
     display:inline-block;
 }
+
 .image-container{
     height:280px;
     width:286px;
-    background: url(assets/logo-teamwork-friendship-unity-business-colorful-people-icon-logotype-vector-logo-teamwork-friendship-unity-business-colorful-115612629.jpg);
-    background-size: cover;
+    background: url(assets/Screenshot.png);
+    background-size: contain;
     background-repeat: no-repeat;
-    margin-top:1.5rem;
+    margin-top:1.9rem;
 }
 @media (max-width:65rem){
     .main{
@@ -585,7 +602,7 @@ svg circle:nth-child(2){
     .image-container{
         height:280px;
         width:155px;
-        background: url(assets/logo-teamwork-friendship-unity-business-colorful-people-icon-logotype-vector-logo-teamwork-friendship-unity-business-colorful-115612629.jpg);
+        background: url(assets/Screenshot.png);
         background-size: contain;
         background-repeat: no-repeat;
         margin-top:3rem;
@@ -595,5 +612,21 @@ svg circle:nth-child(2){
     }
     .time-info{
         font-size: 0.9rem;
+    }
+}
+@media (min-width:90rem)
+{
+    .main{
+        display:grid;
+        margin-top:1rem;
+        margin-bottom: 3rem;
+        margin-left:5rem;
+        margin-right: 15rem;
+        grid-auto-columns: 10% 75% 37%;
+        grid-template-areas: "nav" "main" "side";
+        height:55%;
+        width:80%;
+        max-width: 80%;
+        font-family: 'Baloo Thambi 2', cursive;
     }
 }
