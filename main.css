@@ -639,23 +639,6 @@ svg circle:nth-child(2){
         font-size: 0.9rem;
     }
 }
-
-@media (min-width:90rem)
-{
-    .main{
-        display:grid;
-        margin-top:1rem;
-        margin-bottom: 3rem;
-        margin-left:5rem;
-        margin-right: 15rem;
-        grid-auto-columns: 10% 67% 37%;
-        grid-template-areas: "nav" "main" "side";
-        height:65%;
-        width:80%;
-        max-width: 80%;
-        font-family: 'Baloo Thambi 2', cursive;
-    }
-}
 @media (min-width:80rem)
 {
     .main{
@@ -672,6 +655,23 @@ svg circle:nth-child(2){
         font-family: 'Baloo Thambi 2', cursive;
     }
 }
+@media (min-width:90rem)
+{
+    .main{
+        display:grid;
+        margin-top:1rem;
+        margin-bottom: 3rem;
+        margin-left:5rem;
+        margin-right: 15rem;
+        grid-auto-columns: 10% 67% 37%;
+        grid-template-areas: "nav" "main" "side";
+        height:65%;
+        width:80%;
+        max-width: 80%;
+        font-family: 'Baloo Thambi 2', cursive;
+    }
+}
+
 @media (min-width:105rem)
 {
     .main{
