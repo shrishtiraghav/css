@@ -677,7 +677,7 @@ svg circle:nth-child(2){
         background-size: contain;
         background-repeat: no-repeat;
         margin-top:3rem;
-        margin-right:4rem;
+        margin-left:4rem;
     }
 }
 
@@ -703,7 +703,7 @@ svg circle:nth-child(2){
         background-size: contain;
         background-repeat: no-repeat;
         margin-top:3rem;
-        margin-right:4rem;
+        margin-left:4rem;
     }
 }
 @media (min-width:120rem)
@@ -712,13 +712,22 @@ svg circle:nth-child(2){
         display:grid;
         margin-top:1rem;
         margin-bottom: 3rem;
-        margin-left:5rem;
+        margin-left:15rem;
         margin-right: 15rem;
         grid-auto-columns: 10% 65% 37%;
         grid-template-areas: "nav" "main" "side";
-        height:65%;
+        height:80%;
         width:65%;
         max-width: 80%;
         font-family: 'Baloo Thambi 2', cursive;
+    }
+    .image-container{
+        height:280px;
+        width:155px;
+        background: url(assets/Screenshot.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top:3rem;
+        margin-left:4rem;
     }
 }
