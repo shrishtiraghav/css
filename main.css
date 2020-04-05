@@ -538,7 +538,7 @@ svg circle:nth-child(2){
     background-repeat: no-repeat;
     margin-top:1.9rem;
 }
-@media (max-width:65rem){
+@media (max-width:70rem){
     .main{
         display:grid;
         margin-top:1rem;
@@ -549,6 +549,31 @@ svg circle:nth-child(2){
         grid-template-areas: "nav" "main" "side";
         height:55%;
         font-family: 'Baloo Thambi 2', cursive;
+    }
+    .all{
+        padding:0.2rem; 
+        margin-right:2rem;
+    }
+    .recieved{
+       background-color: #363953;
+       padding:0.2rem 0.4rem 0.2rem 0.4rem;
+       color:white;
+       border-radius:12px;
+       /* text-align: center; */
+       margin-right:2rem;
+    }
+    .pending{
+        padding:0.2rem; 
+        margin-right:2rem;
+    }
+    .completed{
+        margin-right:17rem;
+       padding:0.2rem;
+    }
+    .square{
+        color:#363953;
+        font-size:1rem;
+        margin-right: 1rem;
     }
     .logo{
         text-align: center;
@@ -622,7 +647,7 @@ svg circle:nth-child(2){
         margin-bottom: 3rem;
         margin-left:5rem;
         margin-right: 15rem;
-        grid-auto-columns: 10% 75% 37%;
+        grid-auto-columns: 10% 60% 37%;
         grid-template-areas: "nav" "main" "side";
         height:55%;
         width:80%;
