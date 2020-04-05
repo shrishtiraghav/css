@@ -507,7 +507,7 @@ svg circle:nth-child(2){
     visibility:visible;
     margin-top:2rem;
     width:0.5rem;
-    height:7.5rem;
+    height:6.5rem;
     border:none;
     border-radius:0.4rem 0 0 0.4rem;
 }
@@ -522,7 +522,7 @@ svg circle:nth-child(2){
     background-size: contain;
     background-repeat: no-repeat;
     margin-left:1rem;
-    margin-bottom:1rem;
+    /* margin-bottom:1rem; */
     display:inline-block;
 }
 .profile-photo2{
@@ -533,8 +533,15 @@ svg circle:nth-child(2){
     background-size: contain;
     background-repeat: no-repeat;
     margin-left:-0.7rem;
-    margin-bottom:1rem;
+    /* margin-bottom:1rem; */
     display:inline-block;
+}
+.picture .fa{
+    color:black;
+    font-size:1.5rem;
+    display:inline-block;
+    margin-left:-0.5rem;
+    z-index:1000;
 }
 
 .image-container{
@@ -656,7 +663,7 @@ svg circle:nth-child(2){
         visibility:visible;
         margin-top:2rem;
         width:0.5rem;
-        height:7.2rem;
+        height:6.3rem;
         border:none;
         border-radius:0.4rem 0 0 0.4rem;
     }
