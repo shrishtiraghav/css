@@ -650,7 +650,7 @@ svg circle:nth-child(2){
         grid-auto-columns: 10% 72% 37%;
         grid-template-areas: "nav" "main" "side";
         height:65%;
-        width:80%;
+        width:70%;
         max-width: 80%;
         font-family: 'Baloo Thambi 2', cursive;
     }
