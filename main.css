@@ -685,7 +685,7 @@ svg circle:nth-child(2){
 {
     .main{
         display:grid;
-        margin-top:1rem;
+        margin-top:3rem;
         margin-bottom: 3rem;
         margin-left:5rem;
         margin-right: 15rem;
@@ -710,11 +710,11 @@ svg circle:nth-child(2){
 {
     .main{
         display:grid;
-        margin-top:1rem;
+        margin-top:4rem;
         margin-bottom: 3rem;
         margin-left:15rem;
         margin-right: 15rem;
-        grid-auto-columns: 10% 65% 37%;
+        grid-auto-columns: 10% 67% 37%;
         grid-template-areas: "nav" "main" "side";
         height:100%;
         width:65%;
