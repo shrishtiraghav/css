@@ -645,9 +645,9 @@ svg circle:nth-child(2){
         display:grid;
         margin-top:1rem;
         margin-bottom: 3rem;
-        margin-left:5rem;
+        margin-left:3rem;
         margin-right: 15rem;
-        grid-auto-columns: 10% 85% 37%;
+        grid-auto-columns: 10% 88% 37%;
         grid-template-areas: "nav" "main" "side";
         height:65%;
         width:70%;
