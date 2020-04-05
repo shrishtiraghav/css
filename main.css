@@ -639,7 +639,8 @@ svg circle:nth-child(2){
         font-size: 0.9rem;
     }
 }
-@media (min-width:90rem)
+
+@media (min-width:85rem)
 {
     .main{
         display:grid;
